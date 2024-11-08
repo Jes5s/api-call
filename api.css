@@ -1,14 +1,36 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-top: 50px;
   }
-  
-  th, td {
+
+  input[type="text"] {
     padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
+    font-size: 16px;
+    width: 250px;
   }
   
-  th {
-    background-color: #f2f2f2;
-  }
+button{
+    padding:8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+  
+#weather-info {
+    margin-top: 20px;
+    
+}
+
+h2{
+    color:#333;
+
+}
+
+p {
+    font-size: 18px;
+    color:black
+    
+}
