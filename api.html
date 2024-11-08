@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Domain Search</title>
+  <title>Weather App</title>
   <link rel="stylesheet" href="api.css">
 </head>
 <body>
-  <h1>Domain Search</h1>
-  <input type="text" id="domainInput" placeholder="Enter domain name">
-  <button id="searchButton">Search</button>
-  <div id="results"></div>
-  <script src="api.js"></script>
+  <h1>Weather App</h1>
+  <div>
+    <input type="text" id="city" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+  </div>
+  <div id="weather-info">
+
+  </div>
+
+  <script src="api.css"></script>
 </body>
 </html>
